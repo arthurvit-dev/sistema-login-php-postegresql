@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  background-color: rgba(22, 66, 211, 0.404);
+  padding: 25px;
+  text-align: center; /* 🔥 A CHAVE */
+}
+
+.container h1 {
+  margin-bottom: 20px;
+}
+
+.container input {
+  width: 250px;
+  padding: 5px;
+}
+
+.container input[type="submit"] {
+  width: 100px;
+  border-radius: 12px;
+}
+
+.container a {
+  display: block;
+  margin-top: 10px;
+}
+
+.container input[type="submit"]:hover {
+  background-color: rgb(94, 235, 106);
+}
